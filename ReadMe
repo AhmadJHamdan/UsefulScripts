@@ -1,0 +1,23 @@
+To add the script as a command:
+
+navigate to the script folder and type: mv scriptname.sh scriptname ( remove the .sh extension to use it as a normal command )
+
+For the current bash session:
+PATH=$PATH:script_path
+
+For permanently using the command (even after rebooting):
+
+cd
+vi .bashrc 
+
+################################################################
+to edit in vi type i and start editing 
+to save and close press Esc and the colon followed by x (:x)
+at the end of the .bashrc file add the following:
+export PATH=$PATH:script_path
+################################################################
+then type the following in the terminal after saving the changes:
+
+source .bashrc
+################################################################
+Have a great day :D
