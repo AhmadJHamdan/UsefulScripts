@@ -1,0 +1,5 @@
+Just Download this script and place it in the directory that contains IPs.
+
+Name the file containing the IPs (with each IP on a line) IPs.txt
+Run the powershell script from the powershell
+The final list will appear in the Result.txt file
