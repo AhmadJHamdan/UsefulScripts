@@ -1,14 +1,14 @@
 # Snort3 prerequisites on Kali
 ##############################
 apt update
-apt install cmake
-apt install libhwloc-dev
-apt install pkg-config
-apt install liblzma-dev
-apt install libpcre3-dev libpcre3
-apt install libssl-dev
-apt install libdumbnet-dev
-apt install libpcap-dev
+apt install cmake -y
+apt install libhwloc-dev -y
+apt install pkg-config -y
+apt install liblzma-dev -y
+apt install libpcre3-dev libpcre3 -y
+apt install libssl-dev -y
+apt install libdumbnet-dev -y
+apt install libpcap-dev -y
 
 # Download luajit
 git clone https://luajit.org/git/luajit.git
