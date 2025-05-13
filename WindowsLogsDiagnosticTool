@@ -41,7 +41,7 @@ try {
 
 # Check if IIS Server is running
 Write-Output "`nChecking IIS Server status..." | Out-File -FilePath $logPath -Append
-$IIS_SERVICES = 'W3SVC', 'WAS', 'IISADMIN'
+$IIS_SERVICES = 'W3SVC', 'WAS'
 
 foreach ($name in $IIS_SERVICES) {
     try {
